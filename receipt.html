@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Test Home for Dragon Glass
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/table-style.css">
+ 	<link rel="stylesheet" type="text/css" href="js/scripts.js">
+
+ 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body>
+	<br /><br />
+	<style type="text/css">
+		body {
+			background-image: url("assets/img/bg.jpg");
+			height: 680px;
+			width: 1024px;
+			position: absolute;;
+			left: 400px;
+		}
+
+		.b2 {
+			/* Rectangle 2 */
+			position: absolute;
+			width: 300px;
+			height: 450px;
+			top: 120px;
+			background: rgba(96, 193, 226, 0.85);
+			border-radius: 20px;
+			padding: 1em;
+		}
+
+		.b1 {
+			/* Rectangle 1 */
+			position: absolute;
+			width: 300px;
+			height: 600px;
+			left: 360px;
+			background: #358CAA;
+			background-color: rgba(53, 140, 170, 0.40);
+			border-radius: 20px;
+			color: #fff;
+			padding: 1em;
+
+		}
+
+		.title {
+			font-style: italic;
+		}
+
+		.img-logo {
+			position: absolute;
+			width: 130px;
+			height: 130px;
+			left: 80px;
+			top: 155px;
+		}
+
+		.amount {
+			font-size: 14px;
+			background-color: rgba(000,000,000,0.30);
+			padding: 1em;
+		}
+
+		.amount-cover {
+			font-size: 14px;
+			background-color: rgba(000,000,000,0.30);
+		}
+
+		.total {
+			color: #ccc;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		.print-button {
+			padding: 0.5em;
+			color: #fff;
+			border-radius: 4px;
+			border: 1px solid;
+			background-color: rgba(53, 140, 170, 0.40);
+			position: absolute;
+			left: 50px;
+		}
+
+		.print-button:hover {
+			padding: 0.5em;
+			color: #3ec;
+			border-radius: 4px;
+			border: 1px solid;
+			background-color: rgba(53, 140, 170, 0.40);
+		}
+		
+	</style>
+	<div class="bg">
+		<div class="b2">
+			<img src="assets/img/logo.png" alt="site logo here" class="img-logo">
+		</div>
+		<div class="b1">
+			<span class="title"><i class="fa fa-cc"></i> Transfer Receipt</span>
+			<br /><br /><br />
+			<table class="table">
+				<tr>
+					<td>Transaction Date:</td>
+					<td>1/01/2001</td>
+				</tr>
+				<tr>
+					<td>Transfer Type:</td>
+					<td>web transfer</td>
+				</tr>
+				<tr>
+					<td>Source Account no.:</td>
+					<td>qqqqqqqqqqqqq</td>
+				</tr>
+				<tr>
+					<td>Source Account Name:</td>
+					<td>Dragon Glass</td>
+				</tr>
+				<tr>
+					<td>Beneficiary Account No:</td>
+					<td>xxxxxxxxxxxxxx</td>
+				</tr>
+				<tr>
+					<td>Beneficiary Account Name:</td>
+					<td>Seyi Onifade</td>
+				</tr>
+				<tr>
+					<td>Platform:</td>
+					<td>Ravepay</td>
+				</tr>
+				<tr>
+					<td>Narration:</td>
+					<td>Our QUILOX Money</td>
+				</tr>
+			</table>
+			<div class="amount-cover">
+				<div class="amount">
+					<table>
+						<span class="total"><i class="fa fa-money"></i> Total Amount</span>
+						<tr>
+							<td>NGN: 100000.00</td>
+						</tr>
+					</table>
+				</div>	
+			</div>
+			<br />
+			<div class="button-div">
+				<button class="print-button">Save Receipt</button>
+			</div>
+				 
+		</div>
+	</div>
+</body>
+</html>

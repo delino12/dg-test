@@ -1,0 +1,79 @@
+
+		body {
+			height: 680px;
+			width: 1024px;
+			position: absolute;
+			left: 400px;
+		}
+
+		.b2 {
+			/* Rectangle 2 */
+			position: absolute;
+			width: 300px;
+			height: 450px;
+			top: 120px;
+			background: rgba(96, 193, 226, 0.85);
+			border-radius: 20px;
+			padding: 1em;
+		}
+
+		.b1 {
+			/* Rectangle 1 */
+			position: absolute;
+			width: 300px;
+			height: 600px;
+			left: 360px;
+			background: #358CAA;
+			background-color: rgba(53, 140, 170, 0.40);
+			border-radius: 20px;
+			color: #fff;
+			padding: 1em;
+
+		}
+
+		.title {
+			font-style: italic;
+		}
+
+		.img-logo {
+			position: absolute;
+			width: 130px;
+			height: 130px;
+			left: 80px;
+			top: 155px;
+		}
+
+		.amount {
+			font-size: 14px;
+			background-color: rgba(000,000,000,0.30);
+			padding: 1em;
+		}
+
+		.amount-cover {
+			font-size: 14px;
+			background-color: rgba(000,000,000,0.30);
+		}
+
+		.total {
+			color: #ccc;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		.print-button {
+			padding: 0.5em;
+			color: #fff;
+			border-radius: 4px;
+			border: 1px solid;
+			background-color: rgba(53, 140, 170, 0.40);
+			position: absolute;
+			left: 50px;
+		}
+
+		.print-button:hover {
+			padding: 0.5em;
+			color: #3ec;
+			border-radius: 4px;
+			border: 1px solid;
+			background-color: rgba(53, 140, 170, 0.40);
+		}
